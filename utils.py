@@ -2,7 +2,7 @@ import torch
 from torch.nn.functional import softmax
 
 # Customize label map to match your model's
-id2label = {
+label_map = {
     0: "O",
     1: "B-PER",
     2: "I-PER",
